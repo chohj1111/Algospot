@@ -4,6 +4,7 @@
 #include <cmath>
 #include <stack>
 using namespace std;
+
 bool check_stack(const string& str){
 	stack<char> stk;
 	const string opening("({[");
