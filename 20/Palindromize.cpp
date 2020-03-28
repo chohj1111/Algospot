@@ -51,7 +51,7 @@ int getPalindrom(string str){
 int main(){
 	ios_base::sync_with_stdio(false); 
 	cin.tie(NULL);
-	cout.tie(NULL);
+	cout.tie(NULL);	
 	int test;
 	cin>>test;
 	while(test--){
