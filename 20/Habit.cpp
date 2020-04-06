@@ -66,7 +66,7 @@ vector<int> getSuffixArray(const string& s) {
 int commonPrefix(const string& s, int i, int j){
 	int ret = 0;
 	while(i<s.size() && j<s.size() && s[i] == s[j]){
-		i++; j++; ret++;
+		i++; j++; ret++;https://ide-run.goorm.io/workspace/Algospot?language=kor#
 	}
 	return ret;
 }
